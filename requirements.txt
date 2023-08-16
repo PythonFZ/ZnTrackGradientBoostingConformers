@@ -1,0 +1,4 @@
+rdkit2ase
+jupyterlab
+scikit-learn
+zndraw==0.2.0a6
