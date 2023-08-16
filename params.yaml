@@ -1,0 +1,17 @@
+ComputeEnergies:
+    method: GFN1-xTB
+CreateConformers:
+    max_attempts: 100
+    num_confs: 50
+    random_seed: 42
+    smiles: CCO
+CreateDatasets:
+    l_max: 5
+    n_max: 5
+    r_cut: 5.0
+    random_state: 42
+    test_size: 0.2
+TrainModel:
+    learning_rate: 0.1
+    n_estimators: 200
+    random_state: 42
